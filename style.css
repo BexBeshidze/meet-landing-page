@@ -304,7 +304,6 @@ footer {
     font-size: 18px;
   }
   footer {
-    top: -227px;
     background-image: linear-gradient(
         rgba(77, 150, 169, 0.7),
         rgba(77, 150, 169, 0.7)
@@ -312,6 +311,7 @@ footer {
       url(./assets/desktop/image-footer.jpg);
     flex-direction: row;
     justify-content: space-between;
+    min-height: 308px;
   }
   .footer-h {
     font-size: 40px;
