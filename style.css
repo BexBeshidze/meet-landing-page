@@ -1,0 +1,343 @@
+body {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 900;
+  min-height: 100vh;
+}
+header {
+  display: flex;
+  flex-direction: column;
+}
+.logo {
+  align-self: center;
+  width: 119px;
+  height: 28px;
+  margin: 51px 0 56px 0;
+}
+.div-hero {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+.left-image-div {
+  width: 180px;
+  overflow: hidden;
+}
+.hero {
+  width: 199px;
+  height: 153px;
+}
+.left-image {
+  position: relative;
+  left: -20px;
+}
+.header-h1 {
+  margin: 0 40.5px 24px 40.5px;
+  font-size: 40px;
+  line-height: 44px;
+  text-align: center;
+  color: #28283d;
+}
+.header-p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #87879d;
+  margin: 0 24px 32px 24px;
+}
+.header-div-buttons {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.button,
+.button2 {
+  font-weight: inherit;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  background: #4d96a9;
+  border-radius: 29px;
+  border: none;
+  padding: 16px 40px;
+}
+span {
+  margin-left: 4px;
+  color: #8fe3f9;
+}
+.button2 {
+  background: #855fb1;
+  padding: 16px 29px;
+  margin: 16px 0 64px 0;
+}
+.line-circle {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  z-index: 2;
+}
+.line {
+  width: 1px;
+  height: 84px;
+  opacity: 0.25;
+  background: #87879d;
+}
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 28px;
+  border: 1px solid rgba(135, 135, 157, 0.25);
+  color: #87879d;
+  background: #fafafa;
+}
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.image-div {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 64px;
+  flex-wrap: wrap;
+}
+.image-div img {
+  width: 151px;
+  height: 143px;
+  border-radius: 8px;
+}
+.main-h3 {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #4d96a9;
+  margin: 64px 0 24px 0;
+}
+.main-h2 {
+  font-size: 32px;
+  line-height: 36px;
+  text-align: center;
+  color: #28283d;
+  margin: 0 24px 32px 24px;
+}
+.main-p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #87879d;
+  margin: 0 24px 36px 24px;
+}
+.circle-2 {
+  position: relative;
+  top: 28px;
+}
+footer {
+  background-image: linear-gradient(
+      rgba(77, 150, 169, 0.7),
+      rgba(77, 150, 169, 0.7)
+    ),
+    url(./assets/mobile/image-footer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 428px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.footer-h {
+  font-size: 32px;
+  line-height: 36px;
+  text-align: center;
+  margin: 92px 24px 24px 24px;
+  color: #fafafa;
+}
+.footer-p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: #fafafa;
+  margin: 0 24px 32px 24px;
+}
+.footer-button {
+  background: #855fb1;
+  margin-bottom: 72px;
+}
+.footer-span {
+  color: #d9b8ff;
+}
+/* .div-1 {
+  display: none;
+} */
+@media only screen and (min-width: 768px) {
+  .logo {
+    margin: 51px 0 66px 0;
+  }
+  .div-hero {
+    margin-bottom: 72px;
+  }
+  .left-image-div {
+    width: 368px;
+  }
+  .hero {
+    width: 394px;
+    height: 303px;
+  }
+  .left-image {
+    left: -26px;
+  }
+  .header-h1 {
+    margin: 0 215px 24px 215px;
+    font-size: 48px;
+    line-height: 48px;
+  }
+  .header-p {
+    margin: 0 155px 32px 155px;
+  }
+  .header-div-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 16px;
+    margin-bottom: 80px;
+  }
+  .button2 {
+    margin: 0;
+  }
+  .image-div {
+    gap: 11px;
+    margin-top: 67px;
+  }
+  .image-div img {
+    width: 164px;
+    height: 156px;
+    border-radius: 8px;
+  }
+  .main-h3 {
+    margin: 48px 0 16px 0;
+  }
+  .main-h2 {
+    font-size: 40px;
+    line-height: 44px;
+    margin: 0 161px 32px 161px;
+  }
+  .main-p {
+    margin: 0 97px 52px 98px;
+  }
+  footer {
+    background-image: linear-gradient(
+        rgba(77, 150, 169, 0.7),
+        rgba(77, 150, 169, 0.7)
+      ),
+      url(./assets/tablet/image-footer.jpg);
+  }
+  .footer-h {
+    font-size: 40px;
+    line-height: 44px;
+    margin: 92px 155px 32px 155px;
+  }
+  .footer-p {
+    margin: 0 97px 40px 98px;
+  }
+  .footer-button {
+    background: #855fb1;
+    margin-bottom: 66px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  body {
+    height: 100%;
+  }
+  .logo {
+    margin: 80px 0 61px 0;
+  }
+  .div-hero {
+    margin-bottom: 0;
+  }
+  .left-image-div {
+    position: relative;
+    top: 55px;
+  }
+  .header-div-buttons {
+    margin-bottom: 117px;
+  }
+  .text-div {
+    position: relative;
+    top: -227px;
+  }
+  .header-h1 {
+    margin: 0 497px 34px 498px;
+    font-size: 64px;
+    line-height: 64px;
+  }
+  .header-p {
+    margin: 0 450px 32px 450px;
+    font-size: 18px;
+  }
+  .image-div {
+    position: relative;
+    top: -227px;
+    gap: 30px;
+    margin-top: 64px;
+  }
+  .image-div img {
+    width: 255px;
+    height: 242px;
+    border-radius: 8px;
+  }
+  .main-h2 {
+    position: relative;
+    top: -227px;
+    font-size: 40px;
+    line-height: 44px;
+    margin: 0 497px 32px 498px;
+  }
+  .main-h3 {
+    position: relative;
+    top: -227px;
+    margin: 80px 0 16px 0;
+  }
+  .main-p {
+    position: relative;
+    top: -227px;
+    margin: 0 457px 44px 457px;
+    font-size: 18px;
+  }
+  .circle-2 {
+    position: relative;
+    top: -199px;
+  }
+  footer {
+    position: relative;
+    top: -227px;
+    background-image: linear-gradient(
+        rgba(77, 150, 169, 0.7),
+        rgba(77, 150, 169, 0.7)
+      ),
+      url(./assets/desktop/image-footer.jpg);
+    flex-direction: row;
+  }
+  .footer-h {
+    font-size: 40px;
+    line-height: 44px;
+    margin: 0 125px 0 165px;
+    text-align: start;
+    width: 24.3055556%;
+  }
+  .footer-p {
+    margin: 0;
+    text-align: start;
+    width: 24.3055556%;
+  }
+  .footer-button {
+    margin: 0 165px 0 92px;
+  }
+}
