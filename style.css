@@ -173,9 +173,6 @@ footer {
 .footer-span {
   color: #d9b8ff;
 }
-/* .div-1 {
-  display: none;
-} */
 @media only screen and (min-width: 768px) {
   .logo {
     margin: 51px 0 66px 0;
@@ -256,6 +253,9 @@ footer {
   body {
     height: 100%;
   }
+  main {
+    margin-top: -227px;
+  }
   .logo {
     margin: 80px 0 61px 0;
   }
@@ -283,8 +283,6 @@ footer {
     font-size: 18px;
   }
   .image-div {
-    position: relative;
-    top: -227px;
     gap: 30px;
     margin-top: 64px;
   }
@@ -294,29 +292,18 @@ footer {
     border-radius: 8px;
   }
   .main-h2 {
-    position: relative;
-    top: -227px;
     font-size: 40px;
     line-height: 44px;
     margin: 0 497px 32px 498px;
   }
   .main-h3 {
-    position: relative;
-    top: -227px;
     margin: 80px 0 16px 0;
   }
   .main-p {
-    position: relative;
-    top: -227px;
     margin: 0 457px 44px 457px;
     font-size: 18px;
   }
-  .circle-2 {
-    position: relative;
-    top: -199px;
-  }
   footer {
-    position: relative;
     top: -227px;
     background-image: linear-gradient(
         rgba(77, 150, 169, 0.7),
@@ -324,6 +311,7 @@ footer {
       ),
       url(./assets/desktop/image-footer.jpg);
     flex-direction: row;
+    justify-content: space-between;
   }
   .footer-h {
     font-size: 40px;
